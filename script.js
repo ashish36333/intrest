@@ -16,6 +16,6 @@ document.getElementById('calculator').addEventListener('submit', function(event)
         amount = principal * Math.pow((1 + rate), time);
     }
 
-    // Display the result
-    document.getElementById('result').innerText = `The amount you will receive at the end of ${time} ${document.getElementById('timeUnit').value} is ₹${amount.toFixed(2)}`;
+    // Display the result with the rupee symbol
+    document.getElementById('result').innerText = `The amount you will receive at the end of ${time} years is ₹${amount.toFixed(2)}`;
 });
