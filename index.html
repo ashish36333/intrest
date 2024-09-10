@@ -10,7 +10,7 @@
     <div class="container">
         <h1>Interest Calculator</h1>
         <form id="calculator">
-            <label for="principal">Amount to Invest ($):</label>
+            <label for="principal">Amount to Invest (₹):</label>
             <input type="number" id="principal" required>
 
             <label for="rate">Interest Rate (%):</label>
@@ -22,14 +22,8 @@
                 <option value="compound">Compound</option>
             </select>
 
-            <label for="time">Time (years or months):</label>
+            <label for="time">Time (years):</label>
             <input type="number" id="time" required>
-
-            <label for="timeUnit">Time Unit:</label>
-            <select id="timeUnit">
-                <option value="years">Years</option>
-                <option value="months">Months</option>
-            </select>
 
             <button type="submit">Calculate</button>
         </form>
